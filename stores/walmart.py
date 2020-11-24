@@ -24,7 +24,7 @@ from utils.selenium_utils import options, enable_headless, wait_for_element
 from price_parser import parse_price
 
 API_KEY = "API"  # Your 2captcha API KEY
-site_key = "Site_Key"  # site-key, read the 2captcha docs on how to get this
+SITE_KEY = "Site_Key"  # site-key, read the 2captcha docs on how to get this
 
 WALMART_URLS = {
     "BASE_URL": "https://{domain}/",
